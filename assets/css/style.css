@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Nova Square, cursive;
+    background-color:rgb(39, 19, 43);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    width: 800px;
+    max-width: 80%;
+    background-color: rgb(76, 138, 231);
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px 7px rgb(178, 202, 241);;
+}
+.btn-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 20px 0;
+}
+
+.btn {
+   background-color: rgb(207, 245, 238);
+}
+
+/*Change of color base on answer*/
+.btn.correct {
+    background-color: rgb(121, 240, 65);
+}
+.btn.wrong {
+    background-color: rgba(247, 41, 41, 0.774);
+}
+
+.start-btn, .next-btn {
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide {
+    display: none;
+}
